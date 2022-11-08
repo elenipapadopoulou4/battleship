@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BattleshipUI.jnlp">
+  <information>
+    <title>BattleshipUI</title>
+    <vendor></vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BattleshipUI.jar" size="19020" download="eager" />
+    <jar href="lib\charm-glisten-4.4.1-javadoc.jar" size="2817088" download="eager" />
+    <jar href="lib\charm-glisten-4.4.1.jar" size="1040787" download="eager" />
+    <jar href="lib\javafx.base.jar" size="749889" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2511137" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="127395" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4295861" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="player.Battleship_UI"  name="BattleshipUI" />
+  <update check="always"/>
+</jnlp>
